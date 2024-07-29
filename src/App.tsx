@@ -43,12 +43,14 @@ function App() {
           <b>Counter Value</b>
           <div>{counter_value ?? "Loading..."}</div>
         </div>
-         <br><a onClick={() => {
-          showAlert();
-        }}>
-          Say hi!
+         <a
+          onClick={() => {
+            showAlert();
+          }}
+        >
+          Show Alert
         </a>
-        </br>
+        <br />
       {connected && (
         <a onClick={() => {
           sendIncrement()
