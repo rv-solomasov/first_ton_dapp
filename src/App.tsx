@@ -30,7 +30,8 @@ function App() {
       </div>
       <div>
         <div className='Card'>
-          <b>{WebApp.platform}</b>
+          <b>You are on: {WebApp.platform}</b>
+          <br />
           <b>Our contract Address</b>
           <div className='Hint'>{contract_address?.slice(0, 30) + "..."}</div>
           <b>Our contract Balance</b>
